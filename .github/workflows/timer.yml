@@ -36,6 +36,7 @@ jobs:
 
     # Runs code analysis with C/C++test.
     - name: Run C/C++test
+      id: run_cpptest
       # Use the 'run-cpptest-action' GitHub action.
       uses: parasoft/run-cpptest-action@2.0.2
       # Optional parameters for 'run-cpptest-action'.
@@ -43,7 +44,7 @@ jobs:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         input: project.bdf
         testConfig: 'builtin://MISRA C 2025'
-        additionalParams: '-module .'
+        additionalParams: '-module . -fail'
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
