@@ -8,15 +8,15 @@ set -euo pipefail
 # == Codex ==
 
 # Register C/C++test MCP server - assuming C/C++test is installed in '/opt/parasoft/cpptest' location, adjust as needed
-codex mcp add cpptest-std-mcp -- /opt/parasoft/cpptest/integration/mcp/cpptestmcp
+# codex mcp add cpptest-std-mcp -- /opt/parasoft/cpptest/integration/mcp/cpptestmcp
 
-# Execute the prompt with Codex - be sure to adjust sandbox permissions as needed for your prompt
-codex exec -s danger-full-access --config allow_login_shell=false "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
+# # Execute the prompt with Codex - be sure to adjust sandbox permissions as needed for your prompt
+# codex exec -s danger-full-access --config allow_login_shell=false "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
 
 # == Copilot ==
 
 # Register C/C++test MCP server - assuming C/C++test is installed in '/opt/parasoft/cpptest' location, adjust as needed
-# copilot mcp get cpptest-std-mcp >/dev/null 2>&1 || copilot mcp add cpptest-std-mcp -- /opt/parasoft/cpptest/integration/mcp/cpptestmcp
+/home/syoung/.nvm/versions/node/v8.1.0/bin/copilot mcp get cpptest-std-mcp >/dev/null 2>&1 || copilot mcp add cpptest-std-mcp -- /opt/parasoft/cpptest/integration/mcp/cpptestmcp
 
 # Execute the prompt with Copilot - be sure to adjust sandbox permissions as needed for your prompt
-# copilot --allow-all --no-ask-user -s -p "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
+/home/syoung/.nvm/versions/node/v8.1.0/bin/copilot --allow-all --no-ask-user -s -p "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
