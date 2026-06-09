@@ -1,0 +1,50 @@
+------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer
+project_name=VSCodeIntegrate
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=clock.o
+arg=-c
+arg=clock.c
+------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer
+project_name=VSCodeIntegrate
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=driver.o
+arg=-c
+arg=driver.c
+------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer
+project_name=VSCodeIntegrate
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=timer.o
+arg=-c
+arg=timer.c
+------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer
+project_name=VSCodeIntegrate
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=stdinout.o
+arg=-c
+arg=stdinout.c
+------- cpptestscan v.10.7.4.20260522B4693 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer
+project_name=VSCodeIntegrate
+arg=gcc
+arg=clock.o
+arg=driver.o
+arg=timer.o
+arg=stdinout.o
+arg=-o
+arg=timer.exe
