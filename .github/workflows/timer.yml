@@ -73,7 +73,7 @@ jobs:
         # Note: this requires "-fail" to be passed to run-cpptest-action,
         # and the "exitCode" output is available since version 2.0.3 of the action.
         exitCode=${{ steps.run_cpptest.outputs.exitCode }}
-        if [ "$exitCode" -ge 130 ] || [ $((exitCode & 2)) -eq 0 ]; then
+        if [ "$exitCode" -ge 130 ]; then
           echo "C/C++test exit code does not indicate violations. No autofix needed."
           exit 0
         fi
