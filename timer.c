@@ -46,6 +46,9 @@ struct timer_record* query_user()
     tm_tmp = localtime(&timer);
     
     the_record = (struct timer_record*)malloc(sizeof(struct timer_record));
+    if (!the_record) {
+        return NULL;
+    }
     memset(the_record, 0, sizeof(struct timer_record));
     
     /* starttime */
@@ -107,17 +110,19 @@ void add_timer_record(struct timer_record* tr)
  */
 void delete_timer_record(int idx)
 {
-    struct timer_record* tr = timer_records[idx];
+    struct timer_record* tr;
     int i;
     
+    if (idx < 0 || idx >= curr_index) {
+        return;
+    }
+    
+    tr = timer_records[idx];
+    
     /* fill in the holes */
-    for (i = idx-1; i < curr_index; i++)
+    for (i = idx; i < curr_index - 1; i++)
     {
-        if (0 == timer_records[i]) {
-            break;
-        } else {
-            timer_records[i] = timer_records[i+1];
-        }
+        timer_records[i] = timer_records[i+1];
     }
     curr_index--;
     free(tr);
