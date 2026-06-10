@@ -9,6 +9,8 @@ set -euo pipefail
 COPILOT_BIN="$HOME/.local/bin/copilot"
 
 # Register C/C++test MCP server - assuming C/C++test is installed in '/opt/Parasoft/cpptest' location, adjust as needed
+$HOME/.local/bin/copilot
+/login
 "$COPILOT_BIN" mcp get cpptest-std-mcp >/dev/null 2>&1 || \
   "$COPILOT_BIN" mcp add cpptest-std-mcp -- /opt/Parasoft/cpptest/integration/mcp/cpptestmcp
 
