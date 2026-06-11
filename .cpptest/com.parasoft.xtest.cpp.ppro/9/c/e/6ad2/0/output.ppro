@@ -1,0 +1,4323 @@
+PProDataFile version 3.3
+
+H 0 /usr/include/x86_64-linux-gnu/bits/types.h
+
+K o
+I __STD_TYPE
+F 0
+L 145
+S 145
+f 0
+l 137
+EOR
+
+H 1 /usr/include/x86_64-linux-gnu/bits/typesizes.h
+
+K o
+I __DEV_T_TYPE
+F 0
+L 145
+S 145
+f 1
+l 38
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 146
+S 146
+f 0
+l 137
+EOR
+
+K o
+I __UID_T_TYPE
+F 0
+L 146
+S 146
+f 1
+l 39
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 147
+S 147
+f 0
+l 137
+EOR
+
+K o
+I __GID_T_TYPE
+F 0
+L 147
+S 147
+f 1
+l 40
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 148
+S 148
+f 0
+l 137
+EOR
+
+K o
+I __INO_T_TYPE
+F 0
+L 148
+S 148
+f 1
+l 41
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 149
+S 149
+f 0
+l 137
+EOR
+
+K o
+I __INO64_T_TYPE
+F 0
+L 149
+S 149
+f 1
+l 42
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 150
+S 150
+f 0
+l 137
+EOR
+
+K o
+I __MODE_T_TYPE
+F 0
+L 150
+S 150
+f 1
+l 43
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 151
+S 151
+f 0
+l 137
+EOR
+
+K o
+I __NLINK_T_TYPE
+F 0
+L 151
+S 151
+f 1
+l 45
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 152
+S 152
+f 0
+l 137
+EOR
+
+K o
+I __OFF_T_TYPE
+F 0
+L 152
+S 152
+f 1
+l 51
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 153
+S 153
+f 0
+l 137
+EOR
+
+K o
+I __OFF64_T_TYPE
+F 0
+L 153
+S 153
+f 1
+l 52
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 154
+S 154
+f 0
+l 137
+EOR
+
+K o
+I __PID_T_TYPE
+F 0
+L 154
+S 154
+f 1
+l 53
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 155
+S 155
+f 0
+l 137
+EOR
+
+K o
+I __FSID_T_TYPE
+F 0
+L 155
+S 155
+f 1
+l 73
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 156
+S 156
+f 0
+l 137
+EOR
+
+K o
+I __CLOCK_T_TYPE
+F 0
+L 156
+S 156
+f 1
+l 63
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 157
+S 157
+f 0
+l 137
+EOR
+
+K o
+I __RLIM_T_TYPE
+F 0
+L 157
+S 157
+f 1
+l 54
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 158
+S 158
+f 0
+l 137
+EOR
+
+K o
+I __RLIM64_T_TYPE
+F 0
+L 158
+S 158
+f 1
+l 55
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 159
+S 159
+f 0
+l 137
+EOR
+
+K o
+I __ID_T_TYPE
+F 0
+L 159
+S 159
+f 1
+l 62
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 160
+S 160
+f 0
+l 137
+EOR
+
+K o
+I __TIME_T_TYPE
+F 0
+L 160
+S 160
+f 1
+l 64
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 161
+S 161
+f 0
+l 137
+EOR
+
+K o
+I __USECONDS_T_TYPE
+F 0
+L 161
+S 161
+f 1
+l 65
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 162
+S 162
+f 0
+l 137
+EOR
+
+K o
+I __SUSECONDS_T_TYPE
+F 0
+L 162
+S 162
+f 1
+l 66
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 163
+S 163
+f 0
+l 137
+EOR
+
+K o
+I __SUSECONDS64_T_TYPE
+F 0
+L 163
+S 163
+f 1
+l 67
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 165
+S 165
+f 0
+l 137
+EOR
+
+K o
+I __DADDR_T_TYPE
+F 0
+L 165
+S 165
+f 1
+l 68
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 166
+S 166
+f 0
+l 137
+EOR
+
+K o
+I __KEY_T_TYPE
+F 0
+L 166
+S 166
+f 1
+l 69
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 169
+S 169
+f 0
+l 137
+EOR
+
+K o
+I __CLOCKID_T_TYPE
+F 0
+L 169
+S 169
+f 1
+l 70
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 172
+S 172
+f 0
+l 137
+EOR
+
+K o
+I __TIMER_T_TYPE
+F 0
+L 172
+S 172
+f 1
+l 71
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 175
+S 175
+f 0
+l 137
+EOR
+
+K o
+I __BLKSIZE_T_TYPE
+F 0
+L 175
+S 175
+f 1
+l 72
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 180
+S 180
+f 0
+l 137
+EOR
+
+K o
+I __BLKCNT_T_TYPE
+F 0
+L 180
+S 180
+f 1
+l 56
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 181
+S 181
+f 0
+l 137
+EOR
+
+K o
+I __BLKCNT64_T_TYPE
+F 0
+L 181
+S 181
+f 1
+l 57
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 184
+S 184
+f 0
+l 137
+EOR
+
+K o
+I __FSBLKCNT_T_TYPE
+F 0
+L 184
+S 184
+f 1
+l 58
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 185
+S 185
+f 0
+l 137
+EOR
+
+K o
+I __FSBLKCNT64_T_TYPE
+F 0
+L 185
+S 185
+f 1
+l 59
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 188
+S 188
+f 0
+l 137
+EOR
+
+K o
+I __FSFILCNT_T_TYPE
+F 0
+L 188
+S 188
+f 1
+l 60
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 189
+S 189
+f 0
+l 137
+EOR
+
+K o
+I __FSFILCNT64_T_TYPE
+F 0
+L 189
+S 189
+f 1
+l 61
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 192
+S 192
+f 0
+l 137
+EOR
+
+K o
+I __FSWORD_T_TYPE
+F 0
+L 192
+S 192
+f 1
+l 46
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 194
+S 194
+f 0
+l 137
+EOR
+
+K o
+I __SSIZE_T_TYPE
+F 0
+L 194
+S 194
+f 1
+l 74
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 197
+S 197
+f 0
+l 137
+EOR
+
+K o
+I __SYSCALL_SLONG_TYPE
+F 0
+L 197
+S 197
+f 1
+l 34
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 199
+S 199
+f 0
+l 137
+EOR
+
+K o
+I __SYSCALL_ULONG_TYPE
+F 0
+L 199
+S 199
+f 1
+l 35
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 207
+S 207
+f 0
+l 137
+EOR
+
+K o
+I __SWORD_TYPE
+F 0
+L 207
+S 207
+f 0
+l 130
+EOR
+
+K o
+I __STD_TYPE
+F 0
+L 210
+S 210
+f 0
+l 137
+EOR
+
+K o
+I __U32_TYPE
+F 0
+L 210
+S 210
+f 0
+l 112
+EOR
+
+H 2 /usr/include/ctype.h
+
+H 3 /usr/include/x86_64-linux-gnu/sys/cdefs.h
+
+K o
+I __BEGIN_DECLS
+F 2
+L 28
+S 28
+f 3
+l 143
+EOR
+
+K f
+I _ISbit
+F 2
+L 48
+S 48
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 49
+S 49
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 50
+S 50
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 51
+S 51
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 52
+S 52
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 53
+S 53
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 54
+S 54
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 55
+S 55
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 56
+S 56
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 57
+S 57
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 58
+S 58
+f 2
+l 43
+EOR
+
+K f
+I _ISbit
+F 2
+L 59
+S 59
+f 2
+l 43
+EOR
+
+K o
+I __THROW
+F 2
+L 80
+S 80
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 82
+S 82
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 84
+S 84
+f 3
+l 79
+EOR
+
+K f
+I __exctype
+F 2
+L 108
+S 108
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 109
+S 109
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 110
+S 110
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 111
+S 111
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 112
+S 112
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 113
+S 113
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 114
+S 114
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 115
+S 115
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 116
+S 116
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 117
+S 117
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 118
+S 118
+f 2
+l 102
+EOR
+
+K o
+I __THROW
+F 2
+L 122
+S 122
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 125
+S 125
+f 3
+l 79
+EOR
+
+K f
+I __exctype
+F 2
+L 130
+S 130
+f 2
+l 102
+EOR
+
+K o
+I __THROW
+F 2
+L 142
+S 142
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 146
+S 146
+f 3
+l 79
+EOR
+
+K f
+I __exctype
+F 2
+L 150
+S 150
+f 2
+l 102
+EOR
+
+K f
+I __exctype
+F 2
+L 151
+S 151
+f 2
+l 102
+EOR
+
+K f
+I __exctype_l
+F 2
+L 251
+S 251
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 252
+S 252
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 253
+S 253
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 254
+S 254
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 255
+S 255
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 256
+S 256
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 257
+S 257
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 258
+S 258
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 259
+S 259
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 260
+S 260
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 261
+S 261
+f 2
+l 244
+EOR
+
+K f
+I __exctype_l
+F 2
+L 263
+S 263
+f 2
+l 244
+EOR
+
+K o
+I __THROW
+F 2
+L 267
+S 267
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 268
+S 268
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 271
+S 271
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 2
+L 272
+S 272
+f 3
+l 79
+EOR
+
+K o
+I __END_DECLS
+F 2
+L 327
+S 327
+f 3
+l 144
+EOR
+
+H 4 /usr/include/string.h
+
+K o
+I __BEGIN_DECLS
+F 4
+L 28
+S 28
+f 3
+l 143
+EOR
+
+H 5 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+H 6 Command line
+
+K o
+I __SIZE_TYPE__
+F 5
+L 214
+S 214
+f 6
+l -1
+EOR
+
+K o
+I __THROW
+F 4
+L 44
+S 44
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 44
+S 44
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 48
+S 48
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 48
+S 48
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 56
+S 56
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 56
+S 56
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 56
+S 56
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 4
+L 61
+S 61
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 61
+S 61
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 65
+S 65
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 65
+S 65
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 65
+S 65
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 81
+S 81
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 81
+S 81
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 81
+S 81
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 108
+S 108
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 108
+S 108
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 108
+S 108
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 142
+S 142
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 142
+S 142
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 146
+S 146
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 146
+S 146
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 150
+S 150
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 150
+S 150
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 153
+S 153
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 153
+S 153
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 157
+S 157
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 157
+S 157
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 157
+S 157
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 160
+S 160
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 160
+S 160
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 160
+S 160
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 164
+S 164
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 164
+S 164
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 164
+S 164
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 168
+S 168
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 168
+S 168
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 168
+S 168
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 4
+L 176
+S 176
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 176
+S 176
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 176
+S 176
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 180
+S 180
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 180
+S 180
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 181
+S 181
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 4
+L 188
+S 188
+f 3
+l 79
+EOR
+
+K o
+I __attribute_malloc__
+F 4
+L 188
+S 188
+f 3
+l 298
+EOR
+
+K f
+I __nonnull
+F 4
+L 188
+S 188
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 196
+S 196
+f 3
+l 79
+EOR
+
+K o
+I __attribute_malloc__
+F 4
+L 196
+S 196
+f 3
+l 298
+EOR
+
+K f
+I __nonnull
+F 4
+L 196
+S 196
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 247
+S 247
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 247
+S 247
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 247
+S 247
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 274
+S 274
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 274
+S 274
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 274
+S 274
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 287
+S 287
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 287
+S 287
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 287
+S 287
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 294
+S 294
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 294
+S 294
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 294
+S 294
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 298
+S 298
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 298
+S 298
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 298
+S 298
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 324
+S 324
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 324
+S 324
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 324
+S 324
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 351
+S 351
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 351
+S 351
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 351
+S 351
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 357
+S 357
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 357
+S 357
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 364
+S 364
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 364
+S 364
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 368
+S 368
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 368
+S 368
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 381
+S 381
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 381
+S 381
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 381
+S 381
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 391
+S 391
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 391
+S 391
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 391
+S 391
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 392
+S 392
+f 3
+l 683
+EOR
+
+K f
+I __attr_access
+F 4
+L 393
+S 393
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 4
+L 399
+S 399
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 399
+S 399
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 402
+S 402
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 402
+S 402
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 408
+S 408
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 408
+S 408
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 408
+S 408
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 414
+S 414
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 4
+L 414
+S 414
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 4
+L 414
+S 414
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 419
+S 419
+f 3
+l 79
+EOR
+
+K f
+I __REDIRECT_NTH
+F 4
+L 432
+S 432
+f 3
+l 263
+EOR
+
+K f
+I __nonnull
+F 4
+L 434
+S 434
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 435
+S 435
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 4
+L 458
+S 458
+f 3
+l 79
+EOR
+
+H 7 /usr/include/strings.h
+
+K o
+I __BEGIN_DECLS
+F 7
+L 30
+S 30
+f 3
+l 143
+EOR
+
+K o
+I __THROW
+F 7
+L 35
+S 35
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 35
+S 35
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 35
+S 35
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 39
+S 39
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 7
+L 39
+S 39
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 42
+S 42
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 7
+L 42
+S 42
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 69
+S 69
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 69
+S 69
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 69
+S 69
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 97
+S 97
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 97
+S 97
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 97
+S 97
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 104
+S 104
+f 3
+l 79
+EOR
+
+K o
+I __attribute_const__
+F 7
+L 104
+S 104
+f 3
+l 332
+EOR
+
+K o
+I __THROW
+F 7
+L 110
+S 110
+f 3
+l 79
+EOR
+
+K o
+I __attribute_const__
+F 7
+L 110
+S 110
+f 3
+l 332
+EOR
+
+K o
+I __THROW
+F 7
+L 112
+S 112
+f 3
+l 79
+EOR
+
+K o
+I __attribute_const__
+F 7
+L 112
+S 112
+f 3
+l 332
+EOR
+
+K o
+I __THROW
+F 7
+L 117
+S 117
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 117
+S 117
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 117
+S 117
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 121
+S 121
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 121
+S 121
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 121
+S 121
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 129
+S 129
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 129
+S 129
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 129
+S 129
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 7
+L 135
+S 135
+f 3
+l 79
+EOR
+
+K o
+I __attribute_pure__
+F 7
+L 135
+S 135
+f 3
+l 325
+EOR
+
+K f
+I __nonnull
+F 7
+L 135
+S 135
+f 3
+l 407
+EOR
+
+K o
+I __END_DECLS
+F 7
+L 138
+S 138
+f 3
+l 144
+EOR
+
+K o
+I __THROW
+F 4
+L 466
+S 466
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 466
+S 466
+f 3
+l 407
+EOR
+
+K f
+I __fortified_attr_access
+F 4
+L 467
+S 467
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 4
+L 473
+S 473
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 473
+S 473
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 478
+S 478
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 4
+L 490
+S 490
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 490
+S 490
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 492
+S 492
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 492
+S 492
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 498
+S 498
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 498
+S 498
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 501
+S 501
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 501
+S 501
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 4
+L 508
+S 508
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 508
+S 508
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 508
+S 508
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 4
+L 514
+S 514
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 4
+L 514
+S 514
+f 3
+l 407
+EOR
+
+K f
+I __attr_access
+F 4
+L 514
+S 514
+f 3
+l 683
+EOR
+
+K o
+I __END_DECLS
+F 4
+L 552
+S 552
+f 3
+l 144
+EOR
+
+H 8 /usr/include/unistd.h
+
+K o
+I __BEGIN_DECLS
+F 8
+L 27
+S 27
+f 3
+l 143
+EOR
+
+K o
+I __THROW
+F 8
+L 287
+S 287
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 287
+S 287
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 310
+S 310
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 310
+S 310
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 310
+S 310
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 339
+S 339
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 363
+S 363
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 371
+S 371
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 372
+S 372
+f 3
+l 691
+EOR
+
+K o
+I __wur
+F 8
+L 378
+S 378
+f 3
+l 432
+EOR
+
+K f
+I __attr_access
+F 8
+L 379
+S 379
+f 3
+l 683
+EOR
+
+K o
+I __wur
+F 8
+L 390
+S 390
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 391
+S 391
+f 3
+l 691
+EOR
+
+K o
+I __wur
+F 8
+L 399
+S 399
+f 3
+l 432
+EOR
+
+K f
+I __attr_access
+F 8
+L 400
+S 400
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 8
+L 437
+S 437
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 437
+S 437
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 452
+S 452
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 473
+S 473
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 494
+S 494
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 494
+S 494
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 494
+S 494
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 498
+S 498
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 498
+S 498
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 504
+S 504
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 504
+S 504
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 504
+S 504
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 513
+S 513
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 513
+S 513
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 513
+S 513
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 517
+S 517
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 517
+S 517
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 517
+S 517
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 521
+S 521
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 521
+S 521
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 531
+S 531
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 531
+S 531
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 546
+S 546
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 546
+S 546
+f 3
+l 407
+EOR
+
+K o
+I __attribute_deprecated__
+F 8
+L 546
+S 546
+f 3
+l 356
+EOR
+
+K o
+I __wur
+F 8
+L 546
+S 546
+f 3
+l 432
+EOR
+
+K f
+I __attr_access
+F 8
+L 547
+S 547
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 8
+L 552
+S 552
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 552
+S 552
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 555
+S 555
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 573
+S 573
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 573
+S 573
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 579
+S 579
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 579
+S 579
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 585
+S 585
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 585
+S 585
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 590
+S 590
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 590
+S 590
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 595
+S 595
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 595
+S 595
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 600
+S 600
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 600
+S 600
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 606
+S 606
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 606
+S 606
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 619
+S 619
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 619
+S 619
+f 3
+l 432
+EOR
+
+H 9 /usr/include/x86_64-linux-gnu/bits/confname.h
+
+K o
+I _SC_UIO_MAXIOV
+F 9
+L 201
+S 201
+f 9
+l 200
+EOR
+
+K o
+I _SC_LEVEL1_ICACHE_SIZE
+F 9
+L 497
+S 497
+f 9
+l 466
+EOR
+
+K o
+I __THROW
+F 8
+L 634
+S 634
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 634
+S 634
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 637
+S 637
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 640
+S 640
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 644
+S 644
+f 3
+l 79
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 645
+S 645
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 650
+S 650
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 653
+S 653
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 656
+S 656
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 659
+S 659
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 661
+S 661
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 668
+S 668
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 682
+S 682
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 689
+S 689
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 693
+S 693
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 697
+S 697
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 700
+S 700
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 703
+S 703
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 706
+S 706
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 711
+S 711
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 711
+S 711
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 712
+S 712
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 722
+S 722
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 722
+S 722
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 727
+S 727
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 727
+S 727
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 732
+S 732
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 732
+S 732
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 739
+S 739
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 739
+S 739
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 744
+S 744
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 744
+S 744
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 749
+S 749
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 749
+S 749
+f 3
+l 432
+EOR
+
+K o
+I __THROWNL
+F 8
+L 778
+S 778
+f 3
+l 80
+EOR
+
+K o
+I __THROW
+F 8
+L 786
+S 786
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 799
+S 799
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 804
+S 804
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 804
+S 804
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 804
+S 804
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 805
+S 805
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 809
+S 809
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 814
+S 814
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 820
+S 820
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 820
+S 820
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 820
+S 820
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 827
+S 827
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 827
+S 827
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 827
+S 827
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 833
+S 833
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 833
+S 833
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 833
+S 833
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 840
+S 840
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 840
+S 840
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 840
+S 840
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 841
+S 841
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 848
+S 848
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 848
+S 848
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 848
+S 848
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 853
+S 853
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 853
+S 853
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 853
+S 853
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 854
+S 854
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 858
+S 858
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 858
+S 858
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 863
+S 863
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 863
+S 863
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 867
+S 867
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 867
+S 867
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 871
+S 871
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 874
+S 874
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 889
+S 889
+f 3
+l 407
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 890
+S 890
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 895
+S 895
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 895
+S 895
+f 3
+l 407
+EOR
+
+H 10 /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+
+K o
+I __BEGIN_DECLS
+F 10
+L 28
+S 28
+f 3
+l 143
+EOR
+
+K o
+I __THROW
+F 10
+L 92
+S 92
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 10
+L 92
+S 92
+f 3
+l 407
+EOR
+
+K o
+I __END_DECLS
+F 10
+L 94
+S 94
+f 3
+l 144
+EOR
+
+H 11 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+
+K o
+I __BEGIN_DECLS
+F 11
+L 29
+S 29
+f 3
+l 143
+EOR
+
+K o
+I __END_DECLS
+F 11
+L 49
+S 49
+f 3
+l 144
+EOR
+
+K o
+I __THROW
+F 8
+L 911
+S 911
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 911
+S 911
+f 3
+l 407
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 912
+S 912
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 920
+S 920
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 920
+S 920
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 920
+S 920
+f 3
+l 432
+EOR
+
+K f
+I __attr_access
+F 8
+L 920
+S 920
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 8
+L 924
+S 924
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 924
+S 924
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 931
+S 931
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 931
+S 931
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 931
+S 931
+f 3
+l 432
+EOR
+
+K f
+I __fortified_attr_access
+F 8
+L 932
+S 932
+f 3
+l 691
+EOR
+
+K o
+I __THROW
+F 8
+L 934
+S 934
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 934
+S 934
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 934
+S 934
+f 3
+l 432
+EOR
+
+K f
+I __attr_access
+F 8
+L 934
+S 934
+f 3
+l 683
+EOR
+
+K o
+I __THROW
+F 8
+L 939
+S 939
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 942
+S 942
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 942
+S 942
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 942
+S 942
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 952
+S 952
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 952
+S 952
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 958
+S 958
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 962
+S 962
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 963
+S 963
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 964
+S 964
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 970
+S 970
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 970
+S 970
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 977
+S 977
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 977
+S 977
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 977
+S 977
+f 3
+l 432
+EOR
+
+K f
+I __nonnull
+F 8
+L 981
+S 981
+f 3
+l 407
+EOR
+
+K o
+I __THROW
+F 8
+L 1005
+S 1005
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 1011
+S 1011
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 1016
+S 1016
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 1027
+S 1027
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 1027
+S 1027
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 1027
+S 1027
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 1049
+S 1049
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 1049
+S 1049
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 1070
+S 1070
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 1070
+S 1070
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 1076
+S 1076
+f 3
+l 79
+EOR
+
+K o
+I __THROW
+F 8
+L 1091
+S 1091
+f 3
+l 79
+EOR
+
+K o
+I __wur
+F 8
+L 1114
+S 1114
+f 3
+l 432
+EOR
+
+K o
+I __THROW
+F 8
+L 1163
+S 1163
+f 3
+l 79
+EOR
+
+K f
+I __nonnull
+F 8
+L 1163
+S 1163
+f 3
+l 407
+EOR
+
+K o
+I __wur
+F 8
+L 1201
+S 1201
+f 3
+l 432
+EOR
+
+K f
+I __attr_access
+F 8
+L 1202
+S 1202
+f 3
+l 683
+EOR
+
+K o
+I __END_DECLS
+F 8
+L 1223
+S 1223
+f 3
+l 144
+EOR
+
+H 12 /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer/stdinout.c
+
+H 13 /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/Timer/consts.h
+
+K o
+I BUF_SIZE
+F 12
+L 31
+S 31
+f 13
+l 5
+EOR
+
+K o
+I STDOUT_FILENO
+F 12
+L 66
+S 66
+f 8
+l 211
+EOR
+
