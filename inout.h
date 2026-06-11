@@ -1,6 +1,6 @@
 
-#ifndef _input_h_
-#define _input_h_
+#ifndef _inout_h_
+#define _inout_h_
 
 /* gets a digit from the input device */
 int get_input_digit();
@@ -11,5 +11,5 @@ int print_string(char*);
 /* prints a string array to the output device */
 int print_string_array();
 
-#endif /* _input_h_ */
+#endif /* _inout_h_ */
 

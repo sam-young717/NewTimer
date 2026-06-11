@@ -9,6 +9,9 @@
 #include "inout.h"
 #include "timer.h"
 
+/* Forward declarations */
+int print_menu_get_action();
+void main_loop();
 
 int print_menu_get_action()
 {

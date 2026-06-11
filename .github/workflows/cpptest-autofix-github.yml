@@ -69,8 +69,6 @@ jobs:
       env:
         CPPTEST_COMMIT_FIXES: 1
         WORKFLOWS_DIR: ${{ github.workspace }}/.github/workflows
-        # PAT from a GitHub account with an active Copilot subscription.
-        # Create the secret in Settings -> Secrets and variables -> Actions.
         COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
       run: |
         set -euo pipefail

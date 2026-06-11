@@ -12,6 +12,8 @@
 #include "inout.h"
 #include "timer.h"
 
+/* Forward declarations */
+struct timer_record* query_user();
 
 static struct timer_record* timer_records[BUF_SIZE];
 const int max_records = BUF_SIZE;
