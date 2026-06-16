@@ -22,6 +22,17 @@ fi
 echo "Registered MCP servers:"
 "$COPILOT_BIN" mcp list || true
 
+# Verify Copilot CLI has an authentication token. The CLI accepts any of
+# COPILOT_GITHUB_TOKEN, GH_TOKEN, or GITHUB_TOKEN. The default GITHUB_TOKEN
+# minted by Actions does NOT have Copilot scope, so prefer COPILOT_GITHUB_TOKEN
+# (a Fine-Grained PAT for a user with a Copilot subscription) when running in CI.
+if [ -z "${COPILOT_GITHUB_TOKEN:-}" ] && [ -z "${GH_TOKEN:-}" ] && [ -z "${GITHUB_TOKEN:-}" ]; then
+  echo "ERROR: No Copilot CLI authentication token found." >&2
+  echo "Set the COPILOT_GITHUB_TOKEN secret in the repository settings" >&2
+  echo "(Settings -> Secrets and variables -> Actions) to a PAT for a user with Copilot access." >&2
+  exit 1
+fi
+
 # Execute the prompt with Copilot.
 # --allow-all-tools auto-approves every tool (including MCP tools) in headless mode,
 # and the explicit --allow-tool='cpptest-std-mcp' is belt-and-suspenders for that server.
