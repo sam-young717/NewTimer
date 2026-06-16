@@ -1,0 +1,772 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>CODSTA-115
+<b>Consider hiding the implementation of the structure 'timer_record' in a translation unit 'driver.c'
+<l>9
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-118
+<b>Prototype of function 'print_menu_get_action' does not precede function definition
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-118
+<b>Prototype of function 'main_loop' does not precede function definition
+<l>32
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'get_input_digit' does not precede function call
+<l>29
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'print_menu_get_action' does not precede function call
+<l>35
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'add_timer' does not precede function call
+<l>40
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'display_time' does not precede function call
+<l>55
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'list_timers' does not precede function call
+<l>52
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'get_input_digit' does not precede function call
+<l>49
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'init_timer' does not precede function call
+<l>71
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'main_loop' does not precede function call
+<l>72
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'uninit_timer' does not precede function call
+<l>73
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'print_menu_get_action' does not precede function call
+<l>35
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-159
+<b>Function 'print_menu_get_action' is not in prototype form
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-159
+<b>Function 'main_loop' is not in prototype form
+<l>32
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-159
+<b>Function 'main' is not in prototype form
+<l>69
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "**************************************************
+" is passed to function 'print_string' as pointer to non-const object
+<l>15
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "*                  Timer Menu                    *
+" is passed to function 'print_string' as pointer to non-const object
+<l>16
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ *
+" is passed to function 'print_string' as pointer to non-const object
+<l>17
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "*                                                *
+" is passed to function 'print_string' as pointer to non-const object
+<l>18
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "* 1) Add a timer                                 *
+" is passed to function 'print_string' as pointer to non-const object
+<l>19
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "* 2) Remove a timer                              *
+" is passed to function 'print_string' as pointer to non-const object
+<l>20
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "* 3) List all timers                             *
+" is passed to function 'print_string' as pointer to non-const object
+<l>21
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "* 4) Show time                                   *
+" is passed to function 'print_string' as pointer to non-const object
+<l>22
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "*                                                *
+" is passed to function 'print_string' as pointer to non-const object
+<l>23
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "* 9) Exit                                        *
+" is passed to function 'print_string' as pointer to non-const object
+<l>24
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "*                                                *
+" is passed to function 'print_string' as pointer to non-const object
+<l>25
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "**************************************************
+
+" is passed to function 'print_string' as pointer to non-const object
+<l>26
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "Enter selection, when done press <enter> > " is passed to function 'print_string' as pointer to non-const object
+<l>28
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "
+Error ... timer not added!
+" is passed to function 'print_string' as pointer to non-const object
+<l>42
+<k>30
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "
+Timer added!
+" is passed to function 'print_string' as pointer to non-const object
+<l>44
+<k>30
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "
+Invalid Action ... try again!
+" is passed to function 'print_string' as pointer to non-const object
+<l>63
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "
+Goodbye
+
+" is passed to function 'print_string' as pointer to non-const object
+<l>59
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>PB-27
+<b>String literal "Which timer should I nuke? > " is passed to function 'print_string' as pointer to non-const object
+<l>48
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>15
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>17
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>18
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>19
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>22
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>24
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>25
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>26
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>28
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>42
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>44
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>63
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>59
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>CODSTA-122_a
+<b>Unused function's "print_string" return value
+<l>48
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA2004-14_7
+<b>'return' statement should be at the end of the 'main_loop' function
+<l>60
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/clock.h
+<c>CODSTA-159
+<b>Function 'display_time' is not in prototype form
+<l>8
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/clock.h
+<c>MISRA2004-16_3
+<b>Names shall be given for all the parameters in function 'set_time'
+<l>11
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/inout.h
+<c>CODSTA-159
+<b>Function 'get_input_digit' is not in prototype form
+<l>6
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/inout.h
+<c>CODSTA-159
+<b>Function 'print_string_array' is not in prototype form
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/inout.h
+<c>MISRA2004-16_3
+<b>Names shall be given for all the parameters in function 'print_string'
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>CODSTA-159
+<b>Function 'init_timer' is not in prototype form
+<l>17
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>CODSTA-159
+<b>Function 'uninit_timer' is not in prototype form
+<l>18
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>CODSTA-159
+<b>Function 'add_timer' is not in prototype form
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>CODSTA-159
+<b>Function 'list_timers' is not in prototype form
+<l>33
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-16_3
+<b>Names shall be given for all the parameters in function 'add_timer_record'
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-16_3
+<b>Names shall be given for all the parameters in function 'delete_timer_record'
+<l>27
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-16_3
+<b>Names shall be given for all the parameters in function 'format_timer_record'
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA2004-6_3_b
+<b>The standard integer type 'int' should not be used
+<l>13
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/driver.c
+<c>MISRA2004-6_3_b
+<b>The standard integer type 'int' should not be used
+<l>35
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-20_1_a
+<b>Do not use reserved identifiers : _timer_h_
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-20_12
+<b>Do not include the <time.h> header file
+<l>5
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-20_12_c
+<b>The 'time_t' identifier should not be used
+<l>11
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-20_12_c
+<b>The 'time_t' identifier should not be used
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-6_3_b
+<b>The standard integer type 'unsigned' should not be used
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-6_3_b
+<b>The standard integer type 'int' should not be used
+<l>21
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-6_3_b
+<b>The standard integer type 'int' should not be used
+<l>27
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/timer.h
+<c>MISRA2004-6_3_b
+<b>The standard integer type 'int' should not be used
+<l>30
+<k>26
+<s>false
+<N>
+<f>
+<L>0
