@@ -1,27 +1,30 @@
-#!/bin/bash
-
 set -euo pipefail
 
 # This script should run AI Agent for C/C++test Static Analysis with AI Autofix.
 # It is intended to be executed by 'cpptest-autofix-github.yml' but can also be run manually.
 
-# == Codex ==
+COPILOT_BIN="/home/syoung/.local/bin/copilot"
+CPPTEST_MCP_BIN="/opt/parasoft/cpptest/integration/mcp/cpptestmcp"
 
-# Register C/C++test MCP server - assuming C/C++test is installed in '/opt/parasoft/cpptest' location, adjust as needed
-# codex mcp add cpptest-std-mcp -- /opt/parasoft/cpptest/integration/mcp/cpptestmcp
+# Sanity-check the MCP server binary up front so failures are visible in the job log
+# (otherwise Copilot will just report "MCP tool unavailable" with no detail).
+if [ ! -x "$CPPTEST_MCP_BIN" ]; then
+  echo "ERROR: cpptest MCP binary not found or not executable at: $CPPTEST_MCP_BIN" >&2
+  ls -l "$CPPTEST_MCP_BIN" >&2 || true
+  exit 1
+fi
 
-# # Execute the prompt with Codex - be sure to adjust sandbox permissions as needed for your prompt
-# codex exec -s danger-full-access --config allow_login_shell=false "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
+# Re-register every run so the path can never drift from a stale config
+"$COPILOT_BIN" mcp remove cpptest-std-mcp >/dev/null 2>&1 || true
+"$COPILOT_BIN" mcp add cpptest-std-mcp -- "$CPPTEST_MCP_BIN"
 
-# == Copilot ==
+echo "Registered MCP servers:"
+"$COPILOT_BIN" mcp list || true
 
-# Path to the working GitHub Copilot CLI binary on this self-hosted runner.
-# (Avoids the broken Node-8 npm shim that shadows `copilot` on PATH.)
-COPILOT_BIN="$HOME/.local/bin/copilot"
-
-# Register C/C++test MCP server - assuming C/C++test is installed in '/opt/Parasoft/cpptest' location, adjust as needed
-"$COPILOT_BIN" mcp get cpptest-std-mcp >/dev/null 2>&1 || \
-  "$COPILOT_BIN" mcp add cpptest-std-mcp -- /opt/Parasoft/cpptest/integration/mcp/cpptestmcp
-
-# Execute the prompt with Copilot - be sure to adjust sandbox permissions as needed for your prompt
-"$COPILOT_BIN" --allow-all --no-ask-user -s -p "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
+# Execute the prompt with Copilot.
+# --allow-all-tools auto-approves every tool (including MCP tools) in headless mode,
+# and the explicit --allow-tool='cpptest-std-mcp' is belt-and-suspenders for that server.
+"$COPILOT_BIN" \
+  --allow-all-tools \
+  --allow-tool='cpptest-std-mcp' \
+  -p "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
