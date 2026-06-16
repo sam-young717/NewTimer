@@ -4,7 +4,8 @@ set -euo pipefail
 # It is intended to be executed by 'cpptest-autofix-github.yml' but can also be run manually.
 
 COPILOT_BIN="/home/syoung/.local/bin/copilot"
-CPPTEST_MCP_BIN="/opt/parasoft/cpptest/integration/mcp/cpptestmcp"
+# Override at the job level by exporting CPPTEST_MCP_BIN before running this script.
+CPPTEST_MCP_BIN="${CPPTEST_MCP_BIN:-/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/integration/mcp/cpptestmcp}"
 
 # Sanity-check the MCP server binary up front so failures are visible in the job log
 # (otherwise Copilot will just report "MCP tool unavailable" with no detail).
