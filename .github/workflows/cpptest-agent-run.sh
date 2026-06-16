@@ -22,15 +22,26 @@ fi
 echo "Registered MCP servers:"
 "$COPILOT_BIN" mcp list || true
 
-# Verify Copilot CLI has an authentication token. The CLI accepts any of
-# COPILOT_GITHUB_TOKEN, GH_TOKEN, or GITHUB_TOKEN. The default GITHUB_TOKEN
-# minted by Actions does NOT have Copilot scope, so prefer COPILOT_GITHUB_TOKEN
-# (a Fine-Grained PAT for a user with a Copilot subscription) when running in CI.
-if [ -z "${COPILOT_GITHUB_TOKEN:-}" ] && [ -z "${GH_TOKEN:-}" ] && [ -z "${GITHUB_TOKEN:-}" ]; then
-  echo "ERROR: No Copilot CLI authentication token found." >&2
-  echo "Set the COPILOT_GITHUB_TOKEN secret in the repository settings" >&2
-  echo "(Settings -> Secrets and variables -> Actions) to a PAT for a user with Copilot access." >&2
-  exit 1
+# Diagnostic: report which Copilot auth source is available. The CLI accepts a
+# token via COPILOT_GITHUB_TOKEN, GH_TOKEN, or GITHUB_TOKEN, OR a cached login
+# under $HOME/.copilot/ (created by running 'copilot' and using /login once).
+# This block does NOT exit on missing env vars — the cached login is a valid
+# fallback. If Copilot truly cannot authenticate, the CLI itself will error out
+# on the next call with a clear message.
+echo "Copilot auth diagnostics:"
+echo "  HOME=$HOME"
+for v in COPILOT_GITHUB_TOKEN GH_TOKEN GITHUB_TOKEN; do
+  val="${!v:-}"
+  if [ -n "$val" ]; then
+    echo "  $v: set (${#val} chars)"
+  else
+    echo "  $v: empty/unset"
+  fi
+done
+if [ -f "$HOME/.copilot/config.json" ]; then
+  echo "  cached login: $HOME/.copilot/config.json exists"
+else
+  echo "  cached login: not found"
 fi
 
 # Execute the prompt with Copilot.
