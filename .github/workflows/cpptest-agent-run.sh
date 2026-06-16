@@ -45,9 +45,17 @@ else
 fi
 
 # Execute the prompt with Copilot.
-# --allow-all-tools auto-approves every tool (including MCP tools) in headless mode,
-# and the explicit --allow-tool='cpptest-std-mcp' is belt-and-suspenders for that server.
+#   --allow-all-tools           auto-approve every tool (required for -p mode)
+#   --allow-tool='cpptest-std-mcp'  explicitly trust our MCP server
+#   --no-ask-user               agent works autonomously, never blocks waiting for input
+#   --log-level debug           write detailed logs to $HOME/.copilot/logs/ for post-mortem
+#   --enable-reasoning-summaries  surface the model's reasoning in stdout
+#   --add-dir "$PWD"            ensure the workspace path is explicitly on the allowlist
 "$COPILOT_BIN" \
   --allow-all-tools \
   --allow-tool='cpptest-std-mcp' \
+  --no-ask-user \
+  --log-level debug \
+  --enable-reasoning-summaries \
+  --add-dir "$PWD" \
   -p "$(cat "$(dirname "$0")/cpptest-agent-prompt.md")"
