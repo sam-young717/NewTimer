@@ -3,28 +3,31 @@
  * Clock related functions
  */
 #include <stdio.h>
+#include <stdint.h>
 #include "clock.h"
 #include "consts.h"
 #include "inout.h"
+#include "platform_time.h"
 
 /*
  * Print the current time
  */
-void display_time()
+void display_time(void)
 {
     char buf[BUF_SIZE];
-    time_t the_time = time(NULL);
-    char *t = ctime(&the_time);
-    
-    sprintf(buf, "\n\nCurrent Time and Date is %s\n\n", t);
-    print_string(buf);
+    platform_time_t the_time = platform_get_current_time();
+    char* t = platform_time_to_string(the_time);
+
+    (void)snprintf(buf, (size_t)BUF_SIZE, "\n\nCurrent Time and Date is %s\n\n", t);
+    (void)print_string(buf);
 }
 
 
 /* 
  * Dummy Function -- time always taken from system
  */
-void set_time(time_t new_time)
+void set_time(platform_time_t new_time)
 {
+    (void)new_time;
 }
 
