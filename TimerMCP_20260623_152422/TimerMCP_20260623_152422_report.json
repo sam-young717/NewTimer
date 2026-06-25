@@ -1,0 +1,11 @@
+{
+    "final_statistics": {
+        "since": "2024-01-01",
+        "start": "2026-06-23 15:24:22",
+        "end": "2026-06-23 15:24:28",
+        "total_scanned_repositories_count": 1,
+        "total_ignored_repositories_count": 0,
+        "total_unique_contributors_count": 2
+    },
+    "source_checksum": "0d591f9c6526d57dd72edd7586e7c836"
+}

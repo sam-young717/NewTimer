@@ -1,0 +1,54 @@
+2026-06-23 15:24:22.710 start: 2026-06-23 15:24:22
+2026-06-23 15:24:22.710 command: /mnt/c/Users/syoung/Documents/CDScript/contributors/contributors.py
+2026-06-23 15:24:22.710 output directory: /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/TimerMCP_20260623_152422
+2026-06-23 15:24:22.710 python: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]
+2026-06-23 15:24:22.712 git: git version 2.43.0
+2026-06-23 15:24:22.712 
+2026-06-23 15:24:22.712 /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP scanning...
+2026-06-23 15:24:22.712 
+2026-06-23 15:24:28.150 The following repositories have been found:
+2026-06-23 15:24:28.150 - .
+2026-06-23 15:24:28.150 
+2026-06-23 15:24:28.150 ***
+2026-06-23 15:24:28.193 /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP scanning since 2024-01-01...
+2026-06-23 15:24:28.240 URLs:
+2026-06-23 15:24:28.240 - git@github.com:sam-young717/NewTimer.git
+2026-06-23 15:24:28.314 Branches:
+2026-06-23 15:24:28.315 - feature
+2026-06-23 15:24:28.315 - * main
+2026-06-23 15:24:28.618 Earliest commit date: 2026-06-09
+2026-06-23 15:24:28.618 Latest commit date: 2026-06-16
+2026-06-23 15:24:28.618 Statistics:
+2026-06-23 15:24:28.618 - syoung@syoung-pc. (sam-young717): 30
+2026-06-23 15:24:28.618 - autofix@demo (Autofix): 17
+2026-06-23 15:24:28.618 Number of contributing users: 2
+2026-06-23 15:24:28.618 /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP scanned
+2026-06-23 15:24:28.834 
+2026-06-23 15:24:28.834 ******
+2026-06-23 15:24:28.834 Total statistics since 2024-01-01:
+2026-06-23 15:24:28.834 - syoung@syoung-pc. (sam-young717): 30
+2026-06-23 15:24:28.834 - autofix@demo (Autofix): 17
+2026-06-23 15:24:28.834 
+2026-06-23 15:24:28.834 Total number of contributing users: 2
+2026-06-23 15:24:28.841 
+2026-06-23 15:24:28.841 report file (md5): 2ed4926f547a69baeaba2c1c980df1ea
+2026-06-23 15:24:28.846 report obfuscated file (md5): 0d591f9c6526d57dd72edd7586e7c836
+2026-06-23 15:24:28.850 
+2026-06-23 15:24:28.850 --------------------------------------------------------------------------------
+2026-06-23 15:24:28.850 Summary:
+2026-06-23 15:24:28.850 
+2026-06-23 15:24:28.850 Scanned repositories:
+2026-06-23 15:24:28.850 - /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP (git@github.com:sam-young717/NewTimer.git)
+2026-06-23 15:24:28.851 
+2026-06-23 15:24:28.851 Emails of contributing users:
+2026-06-23 15:24:28.851 - autofix@demo
+2026-06-23 15:24:28.851 - syoung@syoung-pc.
+2026-06-23 15:24:28.851 
+2026-06-23 15:24:28.851 Total number of contributing users: 2
+2026-06-23 15:24:28.851 --------------------------------------------------------------------------------
+2026-06-23 15:24:28.851 
+2026-06-23 15:24:28.857 report: /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/TimerMCP_20260623_152422/TimerMCP_20260623_152422.json
+2026-06-23 15:24:28.862 obfuscated report: /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/TimerMCP_20260623_152422/TimerMCP_20260623_152422_obfuscated.json
+2026-06-23 15:24:28.866 final report: /mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP/TimerMCP_20260623_152422/TimerMCP_20260623_152422_report.json
+2026-06-23 15:24:28.867 
+2026-06-23 15:24:28.867 end: 2026-06-23 15:24:28

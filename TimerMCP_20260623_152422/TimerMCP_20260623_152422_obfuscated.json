@@ -1,0 +1,64 @@
+{
+    "command": "/mnt/c/Users/syoung/Documents/CDScript/contributors/contributors.py",
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "git": "git version 2.43.0",
+    "root": "/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP",
+    "since": "2024-01-01",
+    "start": "2026-06-23 15:24:22",
+    "end": "2026-06-23 15:24:28",
+    "repositories": [
+        {
+            "dir": "/mnt/c/Users/syoung/Documents/Solutions/Linux/2026.1/Standard/cpptest/examples/TimerMCP",
+            "urls": [
+                "9ee048e7-6ad0-367a-955a-63c2ca2fc108"
+            ],
+            "is_bare": false,
+            "is_shallow": false,
+            "branches": [
+                "95178334-2de8-31d1-8eba-7a2d759053d1",
+                "66827147-bc03-350d-85d3-a616e125e770"
+            ],
+            "earliest_commit_date": "2026-06-09",
+            "latest_commit_date": "2026-06-16",
+            "statistics": [
+                {
+                    "email": "3400287a-6572-3a47-b2ef-82ed67be5028",
+                    "names": [
+                        "b0a1d7e4-ddd7-3d7f-be41-479f77337882"
+                    ],
+                    "number_of_commits": 30
+                },
+                {
+                    "email": "55031a13-df37-37d9-8a63-68efd85036fe",
+                    "names": [
+                        "f5c0238c-a905-305f-9607-bd1209dc93d7"
+                    ],
+                    "number_of_commits": 17
+                }
+            ],
+            "number_of_contributing_users": 2,
+            "scanned": true
+        }
+    ],
+    "total": {
+        "statistics": [
+            {
+                "email": "3400287a-6572-3a47-b2ef-82ed67be5028",
+                "names": [
+                    "b0a1d7e4-ddd7-3d7f-be41-479f77337882"
+                ],
+                "number_of_commits": 30
+            },
+            {
+                "email": "55031a13-df37-37d9-8a63-68efd85036fe",
+                "names": [
+                    "f5c0238c-a905-305f-9607-bd1209dc93d7"
+                ],
+                "number_of_commits": 17
+            }
+        ],
+        "number_of_contributing_users": 2
+    },
+    "obfuscated": true,
+    "source_checksum": "2ed4926f547a69baeaba2c1c980df1ea"
+}
