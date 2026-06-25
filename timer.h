@@ -2,35 +2,29 @@
 #ifndef _timer_h_
 #define _timer_h_
 
-#include <time.h>
+#include <stdint.h>
+#include "platform_time.h"
 
-
-/* timere structure */
+/* timer structure */
 struct timer_record
 {
-    time_t starttime;
-    time_t endtime;
-    unsigned channel;
+    platform_time_t starttime;
+    platform_time_t endtime;
+    uint32_t channel;
 };
 
 /* init/uninit routines for the timer */
-void init_timer();
-void uninit_timer();
+void init_timer(void);
+void uninit_timer(void);
 
 /* adds a timer, queries user for info, return ERROR_CODE on failure */
-int add_timer();
-    
-/* adds a timer record */
-void add_timer_record(struct timer_record*);
+int32_t add_timer(void);
 
 /* delete a timer */
-void delete_timer_record(int);
-
-/* get string for a single timer */
-void format_timer_record(int, char*);
+void delete_timer_record(int32_t idx);
 
 /* display list of all timers */
-void list_timers();
+void list_timers(void);
 
 #endif /* _timer_h_ */
 
